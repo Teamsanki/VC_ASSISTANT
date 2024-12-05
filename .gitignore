@@ -1,0 +1,25 @@
+# Ignore the credentials directory
+/credentials/
+
+# Ignore the Google Cloud credentials JSON file if it's stored in the root or elsewhere
+google-credentials.json
+
+# Ignore the Python bytecode files
+*.pyc
+*.pyo
+__pycache__
+
+# Ignore virtual environment folder
+venv/
+.env/
+
+# Ignore IDE/editor-specific files (e.g., VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Ignore .env files with environment variables
+.env
+
+# Ignore any backup files
+*.bak
+*.swp
